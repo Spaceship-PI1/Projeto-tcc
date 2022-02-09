@@ -90,7 +90,8 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 -->
   <tr>
     <td>RF G008 / Filtrar por Área de Pesquisa</td>
-    <td></td>
+    <td>O aluno/professor, pode filtrar os professores e os TCCs pela área de pesquisa selecionada como as áreas de interesse/pesquisa no cadastro, para tornar mais fácil a busca por professores.
+</td>
     <td></td>
   </tr>
  <!--
@@ -117,15 +118,16 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
  -->
  <tr>
     <td>RF G013 / Visualizar Lista de Professores</td>
-    <td></td>
+    <td>O aluno/professor, pode visualizar uma lista dos professores cadastrados na aplicação</td>
     <td></td>
   </tr>
-  <tr>
+ <!--
+ <tr>
     <td>RF G014 / Visualizar Lista de TCCs</td>
     <td></td>
     <td></td>
   </tr>
-  <!--
+  
   <tr>
     <td>RF G015 / Visualizar Lista de Solicitações de Orientação</td>
     <td></td>
@@ -134,17 +136,17 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
   -->
   <tr>
     <td>RF G016 / Visualizar Meu Perfil</td>
-    <td></td>
+    <td>O aluno/professor pode acessar o seus perfil e conferir suas informações cadastradas</td>
     <td></td>
   </tr>
   <tr>
     <td>RF G017 / Visualizar Perfil do Professor</td>
-    <td></td>
+    <td>O aluno/professor pode visualizar o perfil de determinado professor, para que possa visualizar de forma detalhada as suas informações.</td>
     <td></td>
   </tr>
   <tr>
     <td>RF G018 / Visualizar um TCC</td>
-    <td></td>
+    <td>O aluno/professor pode visualizar um TCC específico, para que possa ver mais detalhes daquele TCC, como sua descrição, o link do pdf, etc.</td>
     <td></td>
   </tr>
 <!--
@@ -153,12 +155,13 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
     <td></td>
     <td></td>
   </tr>
+-->
   <tr>
     <td>RF A002 / Cadastrar descrição “Sobre você”</td>
     <td>O aluno precisa informar uma breve descrição sobre ele</td>
     <td>Diretório: src/app/controllers/editController.js. Linha: 5 até 31.</td>
   </tr>
--->
+
   <tr>
     <td>RF A003 / Cadastrar interesses em pesquisa</td>
     <td>
@@ -288,47 +291,53 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
   </tr> 
   <tr>
     <td>RF P008 / Editar Perfil</td>
-    <td></td>
+    <td>O professor pode editar o seu perfil quando quiser, para manter os dados atualizados e não gerar confusão na comunicação.</td>
     <td></td>
   </tr>
   <tr>
     <td>RF P009 / Cadastrar Orientando do Portfólio de TCCs</td>
-    <td></td>
+    <td>O professor pode cadastrar o nome do aluno que foi seu orientando para  determinado tema do TCC que está a cadastrar, para que as pessoas que visitarem esse TCC possam saber quem é o autor.</td>
     <td></td>
   </tr>
   <tr>
     <td>RF P010 / Cadastrar Tema do TCC do Portfólio de TCCs</td>
-    <td></td>
+    <td>O professor pode cadastrar o tema de um TCC já orientado, para que os alunos possam ver os temas foram orientados por ele, além de saberem  melhor em que parte específica da área atua e também para conhecerem os assuntos que podem ser abordados em um TCC.</td>
     <td></td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td>RF P011 / Cadastrar Descrição do TCC do Portfólio de TCCs</td>
     <td></td>
     <td></td>
   </tr>
+
   <tr>
     <td>RF P012 / Cadastrar palavras-chaves do TCC do Portfólio de TCCs</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>RF P013 / Cadastrar Modalidade do TCC do Portfólio de TCCs</td>
-    <td></td>
+-->
+  <td>RF P013 / Cadastrar Modalidade do TCC do Portfólio de TCCs</td>
+    <td>O professor pode cadastrar a modalidade do TCC orientado (artigo científico, relatório técnico ou monografia), para que os alunos identifiquem qual é o tipo de TCC.
+</td>
     <td></td>
   </tr>
   <tr>
     <td>RF P014 / Cadastrar semestre de defesa do TCC do Portfólio de TCCs</td>
-    <td></td>
+    <td>O professor pode cadastrar o semestre de defesa do TCC orientado, para que os alunos possam visualizar esse dado.
+</td>
     <td></td>
   </tr>
+  <!--
   <tr>
     <td>RF P015 / Cadastrar link do PDF do TCC do Portfólio de TCCs</td>
     <td></td>
     <td></td>
   </tr>
+  -->
   <tr>
     <td>RF P016 / Editar Portfólio de TCCs</td>
-    <td></td>
+    <td>O professor pode ter a opção de editar o portfólio de TCCs, para que qualquer erro ou alteração seja corrigido rapidamente.</td>
     <td></td>
   </tr>
   <!--
@@ -342,12 +351,12 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
     <td></td>
     <td></td>
   </tr>
--->
+
   <tr>
     <td>RF P019 / Visualizar Perfil do Aluno</td>
+    <td>O professor pode visualizar o perfil do aluno que solicitou minha orientação, para que eu possa verificar se realmente nossos interesses estão alinhados.</td>
     <td></td>
-    <td></td>
-  </tr>
+  </tr> -->
 </table>
 
 
