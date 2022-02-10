@@ -87,12 +87,14 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
     <td></td>
     <td></td>
   </tr>
--->
+  -->
   <tr>
     <td>RF G008 / Filtrar por Área de Pesquisa</td>
-    <td>O aluno/professor, pode filtrar os professores e os TCCs pela área de pesquisa selecionada como as áreas de interesse/pesquisa no cadastro, para tornar mais fácil a busca por professores.
+    <td>O aluno/professor, pode filtrar os professores e os TCCs pela área de pesquisa selecionada como as áreas de interesse/pesquisa no cadastro, para tornar mais fácil a    busca por professores.
 </td>
-    <td></td>
+    <td>
+      Diretório: src/app/controllers/listController.js. Linha: 68 até 73 e 75 até 80
+    </td>
   </tr>
  <!--
   <tr>
@@ -118,8 +120,10 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
  -->
  <tr>
     <td>RF G013 / Visualizar Lista de Professores</td>
-    <td>O aluno/professor, pode visualizar uma lista dos professores cadastrados na aplicação</td>
-    <td></td>
+    <td>O aluno/professor pode visualizar uma lista dos professores cadastrados na aplicação</td>
+    <td>
+      Diretório: src/app/controllers/listController.js. Linha:  até 
+   </td>
   </tr>
  <!--
  <tr>
