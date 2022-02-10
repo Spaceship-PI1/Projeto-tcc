@@ -28,8 +28,8 @@ Para ter acesso à todos os requisitos funcionais da aplicação, acesso o [READ
 Clone o projeto e acesse a pasta.
 
 ```bash
-$ git clone https://github.com/Spaceship-PI1/dory-front-end.git
-$ cd dory-front-end
+$ git clone https://github.com/Spaceship-PI1/dory-back-end.git
+$ cd dory-back-end
 ```
 
 Para iniciá-lo, siga os passos abaixo:
