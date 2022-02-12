@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const uri = "mongodb+srv://admin:raqueltcc@dory.7zpsx.mongodb.net/dorydb?retryWrites=true&w=majority";
+const uri = MONGO_DB;
 
 try {
   mongoose.connect(uri, {
